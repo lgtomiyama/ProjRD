@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
-
+gem 'unicorn'
 
 gem 'rails', '4.2.1'
 
