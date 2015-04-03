@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
 
@@ -31,4 +32,6 @@ group :development, :test do
 	gem 'pg'
 
 end
-	 
+	
+
+ruby "2.2.0"
