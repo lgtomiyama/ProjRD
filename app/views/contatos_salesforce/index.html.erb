@@ -1,10 +1,10 @@
-<h1>ContatosSalesforce#index</h1>
+<h1>Contatos do Salesforce/h1>
 <ul>
-	<%= @contacts.each do |contact|%>
+	<% @contacts.each do |contact| %>
 		<li>
 		<%= contact.Name %>
 		</li>
 		
 	<% end %>
-	
+	<%= link_to 'Back', "/" %>
 </ul>

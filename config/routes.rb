@@ -1,12 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'welcome/index'
+
   get 'contatos_salesforce/index'
 
   get 'contatos_salesforce/show'
 
-  get 'contacts/index'
+  root 'welcome#index'
 
   resources :pessoas
+  resources :contatos_salesforce
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
